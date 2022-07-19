@@ -19,3 +19,79 @@ img {
     margin-right: auto;
     width: 40%;
 }
+
+li {
+    font-style: oblique;
+    list-style: square;
+    color: darkolivegreen;
+    list-style-position: inside;
+}
+
+div {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    color: brown;
+}
+
+h4{
+    text-align: center;
+    border: 3px;
+    border-radius: 3%;
+    border-style: dotted;
+    background-color: rgb(215, 85, 109);
+}
+
+h3{
+    text-align: center;
+    border: 3px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: gray;
+    background-color: darkolivegreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.link {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
+}
+
+table{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+th, td{
+    padding: 5px;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    border: 2px solid gray;
+}
+
+tr :nth-child(even) {
+    background-color:rgb(116, 161, 116);
+}
+
+tr :nth-child(odd) {
+    background-color: darkseagreen;
+}
+
+#rewards {
+    background-color: rgb(156, 174, 138);
+}
+
+#chores {
+    background-color: cadetblue;
+}
